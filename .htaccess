@@ -14,3 +14,12 @@ RewriteRule . /thecare/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<Files "D:\XAMPP\htdocs\thecare/wp-content/uploads\simply-static\0f4b9f5fb4f6ba293cd1df1a44562cc5-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
